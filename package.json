@@ -1,0 +1,34 @@
+{
+  "name": "js-algorithms",
+  "version": "0.1.0",
+  "description": "My own implementation of some algorithms using JavaScript",
+  "main": "lib/index.js",
+  "repository": "git@github.com:carlosrberto/js-algorithms.git",
+  "author": "Carlos Roberto Gomes Junior <carlos.rberto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "flow-bin": "^0.90.0",
+    "jest": "^23.6.0",
+    "prettier": "1.15.3",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "start": "npm run test -- --watch",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {}
+}
