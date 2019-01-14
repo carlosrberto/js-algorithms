@@ -62,14 +62,16 @@ export default class LinkedList {
   }
 
   deleteHead() {
+    const current = this.head;
+
     if (this.head !== null) {
       if (!this.head.next) {
         this.head = null;
-        return;
+      } else {
+        this.head = this.head.next;
       }
-
-      this.head = this.head.next;
     }
+    return current ? current.data : current;
   }
 
   toArray() {
