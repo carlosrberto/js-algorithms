@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/carlosrberto/js-algorithms.svg?branch=master)](https://travis-ci.org/carlosrberto/js-algorithms)
+![](https://img.shields.io/travis/carlosrberto/js-algorithms.svg)
 
 # JS Algorithms
 
